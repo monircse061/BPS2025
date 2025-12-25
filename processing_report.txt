@@ -1,0 +1,41 @@
+============================================================
+BPS DATASET PROCESSING REPORT
+============================================================
+
+PROCESSING PIPELINE:
+1. Resize to 275×225 pixels
+2. Convert to grayscale
+3. Invert colors (white on black)
+4. Apply median filter (3×3) for noise reduction
+5. Binarize using Otsu's thresholding
+
+PROCESSING STATISTICS:
+----------------------------------------
+
+TRAIN SPLIT:
+  Classes processed: 60/60
+  Total images: 14574
+
+TEST SPLIT:
+  Classes processed: 60/60
+  Total images: 4917
+
+VALIDATION SPLIT:
+  Classes processed: 60/60
+  Total images: 4907
+
+========================================
+OVERALL SUMMARY:
+========================================
+Total images processed: 24398
+
+Directory structure:
+  processed_bps/
+  ├── train/
+  │   ├── 00/
+  │   ├── 01/
+  │   ├── ...
+  │   └── 59/
+  ├── test/ (same structure)
+  ├── validation/ (same structure)
+  └── processing_report.txt
