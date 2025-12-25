@@ -19,20 +19,20 @@ The dataset consists of 60 classes:
 ### File Organization
 BPS2025/
 ├── RAW/
-│ ├── 00/ # Folder for class 00 (first Bangla character)
-│ │ ├── image_001.jpg
-│ │ ├── image_002.jpg
-│ │ └── ...
-│ ├── 01/
-│ └── ... up to 59/
+│   ├── 00/          # Folder for class 00 (first Bangla character)
+│   │   ├── image_001.jpg
+│   │   ├── image_002.jpg
+│   │   └── ...
+│   ├── 01/
+│   └── ... up to 59/
 ├── PROCESSED/
-│ ├── train/
-│ │ ├── 00/
-│ │ ├── 01/
-│ │ └── ...
-│ ├── validation/
-│ └── test/
-└── processing_report.txt # Contains pre-processing information
+│   ├── train/
+│   │   ├── 00/
+│   │   ├── 01/
+│   │   └── ...
+│   ├── validation/
+│   └── test/
+└── processing_report.txt   # Contains pre-processing information
 
 ## Data Collection
 - **Participants**: 500 primary school students (aged 7-12, grades 2-5)
