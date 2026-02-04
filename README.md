@@ -17,22 +17,7 @@ The dataset consists of 60 classes:
 - **Classes 50-59**: Digits (0-9)
 
 ### File Organization
-BPS2025/
-├── RAW/
-│   ├── 00/          # Folder for class 00 (first Bangla character)
-│   │   ├── image_001.jpg
-│   │   ├── image_002.jpg
-│   │   └── ...
-│   ├── 01/
-│   └── ... up to 59/
-├── PROCESSED/
-│   ├── train/
-│   │   ├── 00/
-│   │   ├── 01/
-│   │   └── ...
-│   ├── validation/
-│   └── test/
-└── processing_report.txt   # Contains pre-processing information
+<img width="504" height="334" alt="image" src="https://github.com/user-attachments/assets/ceb9c423-ad95-4be0-a885-87ccc1c7357b" />
 
 ## Data Collection
 - **Participants**: 500 primary school students (aged 7-12, grades 2-5)
@@ -56,7 +41,7 @@ The processed data underwent a 5-stage pre-processing pipeline:
 - **Demographic Studies**: Investigating age and gender patterns in early handwriting development
 - **Deep Learning Research**: Benchmarking CNN, Transformer, and transfer learning models
 - **Computer Vision Applications**: Image classification and pattern recognition research
-- 
+  
 ## Citation
 
 If you use the BPS2025 dataset in your research, please cite:
