@@ -17,7 +17,7 @@ The dataset consists of 60 classes:
 - **Classes 50-59**: Digits (0-9)
 
 ### File Organization
-<img width="504" height="334" alt="image" src="https://github.com/user-attachments/assets/ceb9c423-ad95-4be0-a885-87ccc1c7357b" />
+<img width="2528" height="1664" alt="Gemini_Generated_Image_1g93lj1g93lj1g93" src="https://github.com/user-attachments/assets/8474ea1a-4a5a-489a-a434-ec4fc2cef8f7" />
 
 ## Data Collection
 - **Participants**: 500 primary school students (aged 7-12, grades 2-5)
